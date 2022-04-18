@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: https://alegtechmedia.github.io/alegtechmedia.github.io/sitemap.xml
