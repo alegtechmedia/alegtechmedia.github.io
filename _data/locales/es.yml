@@ -1,0 +1,77 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: Post
+  category: Categoria
+  tag: Etiqueta
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: Home
+  categories: Categorias
+  tags: Etiquetas
+  archives: Archives
+  about: Sobre
+
+# the text displayed in the search bar & search results
+search:
+  hint: buscar
+  cancel: Cancelar
+  no_results: Oops! No se encontraron resultados.
+
+panel:
+  lastmod: Recientemente actualizados
+  trending_tags: Etiquetas en Trending
+  toc: Contenidos
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: Este post está licenciado bajo :LICENSE_NAME por author.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: Algunos derechos reservados.
+  verbose: >-
+   Excepto donde se indique lo contrario, las publicaciones de blog en este sitio tienen licencia 
+   bajo la Licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0) del autor.
+
+
+not_found:
+  statment: Lo sentimos, hemos extraviado esa URL o apunta a algo que no existe.
+  hint_template: :HEAD_BAKpara intentar encontrarlo de nuevo o buscarlo en el cuadro de diálogo :ARCHIVES_PAGE.
+  head_back: Volver al inicio
+  archives_page: Archives page
+
+# ----- Posts related labels -----
+
+post:
+  written_by: By
+  posted: Posted
+  updated: Updated
+  words: words
+  pageview_measure: views
+  read_time:
+    unit: min
+    prompt: read
+  relate_posts: Further Reading
+  share: Share
+  button:
+    next: Newer
+    previous: Older
+    copy_code:
+      succeed: Copied!
+    share_link:
+      title: Copy link
+      succeed: Link copied successfully!
+  # pinned prompt of posts list on homepage
+  pin_prompt: Pinned
+
+# categories page
+categories:
+  category_measure: categories
+  post_measure: posts
